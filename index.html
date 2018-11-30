@@ -12,9 +12,23 @@
         li{
             list-style-position: inside;
         }
+        .text-center {
+            text-align: center;
+        }
+        hr {
+          	background-color: #fff;
+          	border-top: 2px dashed #8c8b8b;
+        }
     </style>
 </head>
 <body>
+  <div class="container">
+      <h1 class = "text-center">CSE Course Resource</h1>
+      <p>ভার্সিটির বিভিন্ন কোর্স করার সময় কোনকিছু বুঝতে গুগল করতাম, বিভিন্ন ভিডিও অথবা আর্টিকেল পড়ে বুঝতে চেষ্টা করতাম। স্লাইড দেখে পড়া আমার কাছে সবসময়ই বিরক্তিকর এক জিনিস ছিল। তার চেয়ে কেউ বুঝিয়ে দিচ্ছে,
+      এমন ভিডিও অথবা লিখা পড়ে বুঝতে সুবিধা হতো। কোর্স শেষেও এক জিনিস দেখতে গিয়ে আরেক জিনিসের খোঁজ পাই। একটূ ঘেটে দেখি, ভালো লাগলে পরে প্রয়োজনের জন্য বুকমার্ক করে রাখি। সেইসব জিনিস একটি সাজানো পেজে সবার জন্য
+    উন্মুক্ত করে দেয়া আর কি। আরেকটি জিনিস এই পেজে এড করা হবে তবে পরবর্তীতে। তার জন্য কিছু সময় দরকার।</p>
+      <hr>
+  </div>
   <div class="container">
       <h2>100 Level</h2>
       <!-- Trigger the modal with a button -->
@@ -29,6 +43,9 @@
   </div>
   <div class="container">
       <h2>200 Level</h2>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse220">CSE 220</button>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse221">CSE 221</button>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#mat216">MAT 216</button>
   </div>
   <div class="container">
       <h2>300 Level</h2>
@@ -54,8 +71,8 @@
         <li>Deep Work: Rules for Focused Success in a Distracted World,<i>by Cal Newport</i></li>
         <li>The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph,<i>by Ryan Holiday</i></li>
         <li>The Subtle Art of Not Giving a F_ck: A Counterintuitive Approach to Living a Good Life,<i>by Mark Manson</i></li>
-        <li>গবেষণায় হাতেখড়ি,<i>by রাগিব হাসান</i></li>
-        <li>মন প্রকৌশল স্বপ্ন অনুপ্রেরণা আর জীবন গড়ার ফরমুলা,<i>by রাগিব হাসান</i></li>
+        <li>গবেষণায় হাতেখড়ি,<i> রাগিব হাসান</i></li>
+        <li>মন প্রকৌশল স্বপ্ন অনুপ্রেরণা আর জীবন গড়ার ফরমুলা,<i> রাগিব হাসান</i></li>
       </ol>
   </div>
 
@@ -70,6 +87,7 @@
         <li><a href = "https://www.youtube.com/watch?v=arj7oStGLkU">Inside the mind of a master procrastinator | Tim Urban</a></li>
         <li><a href = "https://www.youtube.com/watch?v=4O2JK_94g3Y">Unwavering Focus | Dandapani | TEDxReno</a></li>
         <li><a href = "https://www.youtube.com/channel/UCd6Za0CXVldhY8fK8eYoIuw/videos">Freedom in Thought (Youtube Channel)</a></li>
+        <li><a href = "https://www.youtube.com/watch?v=ji5_MqicxSo">Randy Pausch Last Lecture: Achieving Your Childhood Dreams</a></li>
       </ol>
       <br/><br/>
   </div>
@@ -203,6 +221,90 @@
     </div>
   </div>
 
+  <!--200 Level Courses-->
+
+  <!-- CSE 221 -->
+  <div class="modal fade" id="cse221" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">CSE 221 | Algorithms</h4>
+        </div>
+        <div class="modal-body">
+          <h5><b>Reading Materials : </b></h5>
+          <ol>
+            <li>Introduction to Algorithms, <i>by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein</i></li>
+            <li><a href = "http://www.shafaetsplanet.com/planetcoding/">শাফায়েতের ব্লগ</a></li>
+          </ol>
+        </div>
+        <div class="modal-body">
+          <h5><b>Video Tutorials : </b></h5>
+          <ol>
+            <li><a href ="https://www.youtube.com/user/tusharroy2525/playlists">Tushar Roy - Coding Made Simple</a></li>
+          </ol>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CSE 220 -->
+  <div class="modal fade" id="cse220" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">CSE 220 | Data Structures</h4>
+        </div>
+        <div class="modal-body">
+          <h5><b>Reading Materials : </b></h5>
+        </div>
+        <div class="modal-body">
+          <h5><b>Video Tutorials : </b></h5>
+          <ol>
+            <li><a href="https://www.youtube.com/playlist?list=PLym69wpbTIIEOesltWGUsVnY9HDWbJit_">Data Structures and Algorithms in Bangla</a></li>
+          </ol>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAT 216 -->
+  <div class="modal fade" id="mat216" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">MAT 216 | Mathematics IV</h4>
+        </div>
+        <div class="modal-body">
+          <h5><b>Reading Materials : </b></h5>
+          <ol>
+            <li>Introduction to Linear Algebra, <i>by Gilbert Strang</i></li>
+          </ol>
+        </div>
+        <div class="modal-body">
+          <h5><b>Video Tutorials : </b></h5>
+          <ol>
+            <li><a href="https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8">MIT 18.06 Linear Algebra, Spring 2005</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of linear algebra</a></li>
+          </ol>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <!--300 Level Courses-->
 
   <!-- CSE 391 -->
@@ -290,9 +392,16 @@
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
+          <ol>
+            <li>Computer Networking: A Top-Down Approach, <i>by James F. Kurose, Keith W. Ross</i></li>
+            <li>CCNA Routing and Switching Study Guide:, <i>by  Todd Lammle</i></li>
+          </ol>
         </div>
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
+          <ol>
+            <li><a href="https://www.cybrary.it/course/cisco-ccna/">Cisco CCNA</a></li>
+          </ol>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -310,9 +419,15 @@
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
+          <ol>
+            <li><a href = "https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a></li>
+          </ol>
         </div>
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
+          <ol>
+            <li><a href = "https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi">MIT 6.034 Artificial Intelligence, Fall 2010</a></li>
+          </ol>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
