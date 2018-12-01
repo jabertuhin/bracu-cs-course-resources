@@ -5,11 +5,17 @@
     <title>CSE Course Resource</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <style type="text/css">
-        li{
+		body{
+			padding:0;
+			margin:0;
+			background-color:#F1F1F1;
+		}
+		li{
             list-style-position: inside;
         }
         .text-center {
@@ -19,17 +25,42 @@
           	background-color: #fff;
           	border-top: 2px dashed #8c8b8b;
         }
+		section{
+			margin-top:15px;
+			margin-bottom:25px;
+		}
+		.para-1{
+			font-size:20px;
+			font-weight:500;
+			text-align:center;
+		}
+		.bittu{
+			margin:0 auto 20px 0;
+		}
+		.btn-primary{color:#fff;background-color:teal;border-color:#005a5a}
+		.btn-primary:hover{color:#fff;background-color:#2B5D5D;border-color:#009a9a}
+		h2{
+			font-weight:700;
+			color: #373636;
+		}
+		h1{
+			font-weight:800;
+			color: #373636;
+		}
+		
     </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container" style="margin-top:50px;">
       <h1 class = "text-center">CSE Course Resource</h1>
-      <p>ভার্সিটির বিভিন্ন কোর্স করার সময় কোনকিছু বুঝতে গুগল করতাম, বিভিন্ন ভিডিও অথবা আর্টিকেল পড়ে বুঝতে চেষ্টা করতাম। স্লাইড দেখে পড়া আমার কাছে সবসময়ই বিরক্তিকর এক জিনিস ছিল। তার চেয়ে কেউ বুঝিয়ে দিচ্ছে,
-      এমন ভিডিও অথবা লিখা পড়ে বুঝতে সুবিধা হতো। কোর্স শেষেও এক জিনিস দেখতে গিয়ে আরেক জিনিসের খোঁজ পাই। একটূ ঘেটে দেখি, ভালো লাগলে পরে প্রয়োজনের জন্য বুকমার্ক করে রাখি। সেইসব জিনিস একটি সাজানো পেজে সবার জন্য
-    উন্মুক্ত করে দেয়া আর কি। আরেকটি জিনিস এই পেজে এড করা হবে তবে পরবর্তীতে। তার জন্য কিছু সময় দরকার।</p>
+      <p class="para-1">ভার্সিটির বিভিন্ন কোর্স করার সময় কোনকিছু বুঝতে গুগল করতাম, বিভিন্ন ভিডিও অথবা আর্টিকেল পড়ে বুঝতে চেষ্টা করতাম। স্লাইড দেখে পড়া আমার কাছে সবসময়ই বিরক্তিকর এক জিনিস ছিল। তার চেয়ে কেউ বুঝিয়ে দিচ্ছে,
+      এমন ভিডিও অথবা লিখা পড়ে বুঝতে সুবিধা হতো। কোর্স শেষেও এক জিনিস দেখতে গিয়ে আরেক জিনিসের খোঁজ পাই। একটূ ঘেটে দেখি, ভালো লাগলে পরে প্রয়োজনের জন্য বুকমার্ক করে রাখি। সেইসব জিনিস একটি সাজানো পেজে সবার জন্য
+    উন্মুক্ত করে দেয়া আর কি। আরেকটি জিনিস এই পেজে এড করা হবে তবে পরবর্তীতে। তার জন্য কিছু সময় দরকার।</p>
       <hr>
   </div>
-  <div class="container">
+  <!-- Start of Globel Code -->
+
+  <section class="container text-center">
       <h2>100 Level</h2>
       <!-- Trigger the modal with a button -->
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse110">CSE 110</button>
@@ -40,16 +71,15 @@
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#mat110">MAT 110</button>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#mat120">MAT 120</button>
       -->
-  </div>
-  <div class="container">
+  </section>
+  <section class="container text-center">
       <h2>200 Level</h2>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse220">CSE 220</button>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse221">CSE 221</button>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse230">CSE 230</button>
-      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse260">CSE 260</button>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#mat216">MAT 216</button>
-  </div>
-  <div class="container">
+  </section>
+  <section class="container text-center">
       <h2>300 Level</h2>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse320">CSE 320</button>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse321">CSE 321</button>
@@ -60,8 +90,8 @@
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse341">CSE 341</button>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse370">CSE 370</button>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse391">CSE 391</button>
-  </div>
-  <div class="container">
+  </section>
+  <section class="container text-center">
       <h2>400 Level</h2>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse420">CSE 420</button>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse421">CSE 421</button>
@@ -70,34 +100,59 @@
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse427">CSE 427</button>
       <br><br> <!--Splitiing Buttons-->
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cse491">CSE 491</button>
-  </div>
+  </section>
 
   <!-- Reading Suggestions for Personal Growth-->
 
-  <div class="container">
+  <section class="container text-center">
       <h2>Others</h2>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#read">Reading Suggestion for Personal Growth</button>
       <br><br>
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#motivational">Motivational Videos</button>
-      <br><br><br><br>
+      <br><br>
       <!--
       <h4><u>Reading Suggestion for Personal Growth : </u></h4>
       <ol>
         <li>Deep Work: Rules for Focused Success in a Distracted World,<i>by Cal Newport</i></li>
         <li>The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph,<i>by Ryan Holiday</i></li>
         <li>The Subtle Art of Not Giving a F_ck: A Counterintuitive Approach to Living a Good Life,<i>by Mark Manson</i></li>
-        <li>গবেষণায় হাতেখড়ি,<i> রাগিব হাসান</i></li>
-        <li>মন প্রকৌশল স্বপ্ন অনুপ্রেরণা আর জীবন গড়ার ফরমুলা,<i> রাগিব হাসান</i></li>
+        <li>গবেষণায় হাতেখড়ি,<i> রাগিব হাসান</i></li>
+        <li>মন প্রকৌশল স্বপ্ন অনুপ্রেরণা আর জীবন গড়ার ফরমুলা,<i> রাগিব হাসান</i></li>
       </ol>
       -->
-  </div>
+  </section>
+<h3 class="text-center">Visitor Counter </h3>
+ <div class="bittu">
+ 	 <center>
+<script language="JavaScript">
+var count = "jabertuhin";          // Change Your Account?
+var type = "7segamberled";       // Change Your Counter Image?
+var digits = "5";          // Change The Amount of Digits on Your Counter?
+var prog = "hit";          // Change to Either hit/unique?
+var statslink = "yes";    // provide statistical link in counter yes/no?
+var sitelink = "yes";     // provide link back to our site;~) yes/no?
+var cntvisible = "yes"; // do you want counter visible yes/no?
+</script>
+<!-- START DO NOT TAMPER WITH ANYTHING ELSE BELOW THIS LINE FOR YOUR WEBTV & UNIX VISITORS -->
+<script language="JavaScript" src="http://006.free-counters.co.uk/count-123.js">
+</script>
+<noscript>
+<a href="http://www.free-counters.co.uk" target="_blank">
+<img  src="http://006.free-counters.co.uk/count-123.pl?count=jabertuhin&cntvisible=no&mode=noscript" alt="Free Counters" title="Free Counters" border="0">
+</a>The following text will not be seen after you upload your website,
+please keep it in order to retain your counter functionality 
+<br><a href="http://www.free-counters.co.uk" target="_blank">Free Trackers</a><br> <a href="http://www.free-counters.co.uk" target="_blank">Help</a><br>
 
+</noscript>
+<!-- END DO NOT TAMPER WITH ANYTHING ELSE ABOVE THIS LINE FOR YOUR WEBTV & UNIX VISITORS -->
+</center>        
+<!-- End of Globel Code -->
+ </div>
   <!-- Reading Suggestion for Personal Growth -->
   <div class="modal fade" id="read" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Reading Suggestion for Personal Growth</h4>
         </div>
         <div class="modal-body">
@@ -106,8 +161,8 @@
             <li>Deep Work: Rules for Focused Success in a Distracted World,<i>by Cal Newport</i></li>
             <li>The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph,<i>by Ryan Holiday</i></li>
             <li>The Subtle Art of Not Giving a F_ck: A Counterintuitive Approach to Living a Good Life,<i>by Mark Manson</i></li>
-            <li>গবেষণায় হাতেখড়ি,<i> রাগিব হাসান</i></li>
-            <li>মন প্রকৌশল স্বপ্ন অনুপ্রেরণা আর জীবন গড়ার ফরমুলা,<i> রাগিব হাসান</i></li>
+            <li>গবেষণায় হাতেখড়ি,<i> রাগিব হাসান</i></li>
+            <li>মন প্রকৌশল স্বপ্ন অনুপ্রেরণা আর জীবন গড়ার ফরমুলা,<i> রাগিব হাসান</i></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -122,19 +177,18 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Motivational Videos</h4>
         </div>
         <div class="modal-body">
           <h5><b>List : </b></h5>
           <ol>
-            <li><a href = "https://www.youtube.com/watch?v=UF8uR6Z6KLc">Steve Jobs' 2005 Stanford Commencement Address</a></li>
-            <li><a href = "https://www.youtube.com/watch?v=36m1o-tM05g">My philosophy for a happy life | Sam Berns | TEDxMidAtlantic</a></li>
-            <li><a href = "https://www.youtube.com/watch?v=6P2nPI6CTlc">Overcoming hopelessness | Nick Vujicic | TEDxNoviSad</a></li>
-            <li><a href = "https://www.youtube.com/watch?v=arj7oStGLkU">Inside the mind of a master procrastinator | Tim Urban</a></li>
-            <li><a href = "https://www.youtube.com/watch?v=4O2JK_94g3Y">Unwavering Focus | Dandapani | TEDxReno</a></li>
-            <li><a href = "https://www.youtube.com/channel/UCd6Za0CXVldhY8fK8eYoIuw/videos">Freedom in Thought (Youtube Channel)</a></li>
-            <li><a href = "https://www.youtube.com/watch?v=ji5_MqicxSo">Randy Pausch Last Lecture: Achieving Your Childhood Dreams</a></li>
+            <li><a href = "https://www.youtube.com/watch?v=UF8uR6Z6KLc" target="_blank">Steve Jobs' 2005 Stanford Commencement Address</a></li>
+            <li><a href = "https://www.youtube.com/watch?v=36m1o-tM05g" target="_blank">My philosophy for a happy life | Sam Berns | TEDxMidAtlantic</a></li>
+            <li><a href = "https://www.youtube.com/watch?v=6P2nPI6CTlc" target="_blank">Overcoming hopelessness | Nick Vujicic | TEDxNoviSad</a></li>
+            <li><a href = "https://www.youtube.com/watch?v=arj7oStGLkU" target="_blank">Inside the mind of a master procrastinator | Tim Urban</a></li>
+            <li><a href = "https://www.youtube.com/watch?v=4O2JK_94g3Y" target="_blank">Unwavering Focus | Dandapani | TEDxReno</a></li>
+            <li><a href = "https://www.youtube.com/channel/UCd6Za0CXVldhY8fK8eYoIuw/videos" target="_blank">Freedom in Thought (Youtube Channel)</a></li>
+            <li><a href = "https://www.youtube.com/watch?v=ji5_MqicxSo" target="_blank">Randy Pausch Last Lecture: Achieving Your Childhood Dreams</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -151,8 +205,9 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
           <h4 class="modal-title">CSE 110 | Programming Language I</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -160,20 +215,20 @@
               <li>Java: The Complete Reference,<i>Herbert Schildt</i></li>
               <li>Java: How to Program,<i>Paul Deitel and Harvey Deitel</i></li>
               <li>How to Solve It by Computer,<i>R. G. Dromey</i></li>
-              <li>৫২টি প্রোগ্রামিং সমস্যা ও সমাধান, <i>তামিম শাহরিয়ার সুবিন, তাহমিদ রাফি, তামান্না নিশাত রিনি</i></li>
+              <li>৫২টি প্রোগ্রামিং সমস্যা ও সমাধান, <i>তামিম শাহরিয়ার সুবিন, তাহমিদ রাফি, তামান্না নিশাত রিনি</i></li>
           </ol>
         </div>
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="http://subeen.com/%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A7%8B-%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F-flow-chart/">ফ্লো চার্ট (Flow Chart)</a></li>
+            <li><a href="http://subeen.com/%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A7%8B-%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F-flow-chart/" target="_blank">ফ্লো চার্ট (Flow Chart)</a></li>
           </ol>
         </div>
         <div class="modal-body">
           <h5><b>Useful Softwares : </b></h5>
           <ol>
-            <li><a href="https://raptor.martincarlisle.com/">Raptor [Flow chart]</a></li>
-            <li><a href="http://cs.joensuu.fi/jeliot/">Jeliot [For Tracing]</a></li>
+            <li><a href="https://raptor.martincarlisle.com/" target="_blank">Raptor [Flow chart]</a></li>
+            <li><a href="http://cs.joensuu.fi/jeliot/" target="_blank">Jeliot [For Tracing]</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -189,8 +244,9 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
           <h4 class="modal-title">CSE 111 | Programming Language II</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -202,13 +258,13 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.youtube.com/playlist?list=PLW1OMpQZxu7xVlHgF87T-BKj3GFZ9298I">Tracing Programs [Mifta Sintaha]</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLW1OMpQZxu7xVlHgF87T-BKj3GFZ9298I" target="_blank">Tracing Programs [Mifta Sintaha]</a></li>
           </ol>
         </div>
         <div class="modal-body">
           <h5><b>Useful Softwares : </b></h5>
           <ol>
-            <li><a href="http://cs.joensuu.fi/jeliot/">Jeliot [For Tracing]</a></li>
+            <li><a href="http://cs.joensuu.fi/jeliot/" target="_blank">Jeliot [For Tracing]</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -224,8 +280,9 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
           <h4 class="modal-title">PHY 111 | Principles of Physics I</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -236,7 +293,7 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href= "https://www.youtube.com/playlist?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e">8.01x - MIT Physics I: Classical Mechanics</a></li>
+            <li><a href= "https://www.youtube.com/playlist?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e" target="_blank">8.01x - MIT Physics I: Classical Mechanics</a></li>
           </ol>
         </div>
         <div class="modal-body">
@@ -263,8 +320,9 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
           <h4 class="modal-title">PHY 112 | Principles of Physics II</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -275,7 +333,7 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href= "https://www.youtube.com/playlist?list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j">8.02x - MIT Physics II: Electricity and Magnetism</a></li>
+            <li><a href= "https://www.youtube.com/playlist?list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j" target="_blank">8.02x - MIT Physics II: Electricity and Magnetism</a></li>
           </ol>
         </div>
         <div class="modal-body">
@@ -304,19 +362,17 @@
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            
             <h4 class="modal-title">CSE 220 | Data Structures</h4>
+            
           </div>
           <div class="modal-body">
             <h5><b>Reading Materials : </b></h5>
-            <ol>
-              <li><a href="https://hellohasan.com/category/data-structure/">হাসানের রাফখাতা [ডাটা স্ট্রাকচার]</a></li>
-            </ol>
           </div>
           <div class="modal-body">
             <h5><b>Video Tutorials : </b></h5>
             <ol>
-              <li><a href="https://www.youtube.com/playlist?list=PLym69wpbTIIEOesltWGUsVnY9HDWbJit_">Data Structures and Algorithms in Bangla</a></li>
+              <li><a href="https://www.youtube.com/playlist?list=PLym69wpbTIIEOesltWGUsVnY9HDWbJit_" target="_blank">Data Structures and Algorithms in Bangla</a></li>
             </ol>
           </div>
           <div class="modal-footer">
@@ -332,8 +388,9 @@
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            
             <h4 class="modal-title">CSE 230 | Discrete Mathematics</h4>
+            
           </div>
           <div class="modal-body">
             <h5><b>Reading Materials : </b></h5>
@@ -345,8 +402,8 @@
           <div class="modal-body">
             <h5><b>Video Tutorials : </b></h5>
             <ol>
-              <li><a href="https://www.youtube.com/playlist?list=PLYx-Huwyr19hDr9_9eZ4RJVEUlqvgfWBj">Discrete Mathematics (বিচ্ছিন্ন গণিত)</a></li>
-              <li><a href="https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2">Introduction to Probability - The Science of Uncertainty</a></li>
+              <li><a href="https://www.youtube.com/playlist?list=PLYx-Huwyr19hDr9_9eZ4RJVEUlqvgfWBj" target="_blank">Discrete Mathematics (বিচ্ছিন্ন গণিত)</a></li>
+              <li><a href="https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2" target="_blank">Introduction to Probability - The Science of Uncertainty</a></li>
             </ol>
           </div>
           <div class="modal-footer">
@@ -356,34 +413,7 @@
       </div>
     </div>
 
-    <!-- CSE 260 -->
 
-    <div class="modal fade" id="cse260" role="dialog">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">CSE 260 | Digital Logic Design</h4>
-          </div>
-          <div class="modal-body">
-            <h5><b>Reading Materials : </b></h5>
-            <ol>
-              <li>Digital Logic and Computer Design, <i> by M. Morris Mano</i></li>
-            </ol>
-          </div>
-          <div class="modal-body">
-            <h5><b>Video Tutorials : </b></h5>
-            <ol>
-              <li><a href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm">Digital Electronics [Neso Academy]</a></li>
-              <li><a href="http://shikkhok.com/%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%B8-%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE/cs-digital-logic-design/">ডিজিটাল লজিক ডিজাইন (Digital Logic Design)</a></li>
-            </ol>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
 
   <!-- CSE 221 -->
 
@@ -391,20 +421,21 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
           <h4 class="modal-title">CSE 221 | Algorithms</h4>
+         
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
           <ol>
             <li>Introduction to Algorithms, <i>by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein</i></li>
-            <li><a href = "http://www.shafaetsplanet.com/planetcoding/">শাফায়েতের ব্লগ</a></li>
+            <li><a href = "http://www.shafaetsplanet.com/planetcoding/" target="_blank">শাফায়েতের ব্লগ</a></li>
           </ol>
         </div>
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href ="https://www.youtube.com/user/tusharroy2525/playlists">Tushar Roy - Coding Made Simple</a></li>
+            <li><a href ="https://www.youtube.com/user/tusharroy2525/playlists" target="_blank">Tushar Roy - Coding Made Simple</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -422,8 +453,9 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
           <h4 class="modal-title">MAT 216 | Mathematics IV</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -434,8 +466,8 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8">MIT 18.06 Linear Algebra, Spring 2005</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of linear algebra</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8" target="_blank">MIT 18.06 Linear Algebra, Spring 2005</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" target="_blank">Essence of linear algebra</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -454,8 +486,9 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
           <h4 class="modal-title">CSE 320 | Data Communication</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -466,7 +499,7 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.cybrary.it/course/cisco-ccna/">Cisco CCNA</a></li>
+            <li><a href="https://www.cybrary.it/course/cisco-ccna/" target="_blank">Cisco CCNA</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -482,8 +515,8 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 321 | Operating System</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -495,8 +528,8 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.udacity.com/course/introduction-to-operating-systems--ud923">Introduction to Operating Systems by George Tech</a></li>
-            <li><a = "https://www.youtube.com/playlist?list=PLEbnTDJUr_If_BnzJkkN_J0Tl3iXTL8vq">Operating Systems</a></li>
+            <li><a href="https://www.udacity.com/course/introduction-to-operating-systems--ud923" target="_blank">Introduction to Operating Systems by George Tech</a></li>
+            <li><a href= "https://www.youtube.com/playlist?list=PLEbnTDJUr_If_BnzJkkN_J0Tl3iXTL8vq" target="_blank">Operating Systems</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -513,8 +546,8 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 330 | Numerical Methods</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -525,7 +558,7 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.youtube.com/user/numericalmethodsguy/playlists">The Numerical Method Guy</a></li>
+            <li><a href="https://www.youtube.com/user/numericalmethodsguy/playlists" target="_blank">The Numerical Method Guy</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -541,8 +574,8 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 331 | Automata and Computabilty</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -554,8 +587,8 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.youtube.com/playlist?list=PLW1OMpQZxu7zIbrPbyRhEMBSgBU0Qc03h">Automata & Computability [Mifta Sintaha]</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLEbnTDJUr_IdM___FmDFBJBz0zCsOFxfK">Theory of Computation or Automata Theory</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLW1OMpQZxu7zIbrPbyRhEMBSgBU0Qc03h" target="_blank">Automata & Computability [Mifta Sintaha]</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLEbnTDJUr_IdM___FmDFBJBz0zCsOFxfK" target="_blank">Theory of Computation or Automata Theory</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -571,8 +604,8 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 340 | Computer Architecture</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -584,9 +617,9 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.youtube.com/playlist?list=PLhwVAYxlh5dvB1MkZrcRZy6x_a2yORNAu">CS-224 Computer Organization</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq">Spring 2015 -- Computer Architecture Lectures -- Carnegie Mellon</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLW1OMpQZxu7yGGcqrMsZtHZEa4X5IETVh">Computer Architecture [Mifta Sintaha]</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLhwVAYxlh5dvB1MkZrcRZy6x_a2yORNAu" target="_blank">CS-224 Computer Organization</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq" target="_blank">Spring 2015 -- Computer Architecture Lectures -- Carnegie Mellon</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLW1OMpQZxu7yGGcqrMsZtHZEa4X5IETVh" target="_blank">Computer Architecture [Mifta Sintaha]</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -602,8 +635,8 @@
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title">CSE 341 | Micro Processors</h4>
+            
           </div>
           <div class="modal-body">
             <h5><b>Reading Materials : </b></h5>
@@ -628,20 +661,20 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 370 | Database System</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
           <ol>
             <li>Fundamentals of Database Systems, <i>by Ramez Elmasri, Shamkant B. Navathe</i></li>
-            <li><a href = "http://sqlzoo.net/">SqlZoo</a></li>
+            <li><a href = "http://sqlzoo.net/" target="_blank">SqlZoo</a></li>
           </ol>
         </div>
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.udacity.com/course/intro-to-relational-databases--ud197">Intro to Relational Databases</a></li>
+            <li><a href="https://www.udacity.com/course/intro-to-relational-databases--ud197" target="_blank">Intro to Relational Databases</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -658,8 +691,8 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 391 | Programming for Internet</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -670,7 +703,7 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.youtube.com/playlist?list=PLhQjrBD2T382eX9-tF75Wa4lmlC7sxNDH">CS50 Lectures 2018</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLhQjrBD2T382eX9-tF75Wa4lmlC7sxNDH" target="_blank">CS50 Lectures 2018</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -689,8 +722,8 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 420 | Compiler Design</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -701,8 +734,8 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.youtube.com/playlist?list=PLW1OMpQZxu7xMh7nuDQYQ2mDcqY2hzBWk">Compiler Design [Mifta Sintaha]</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLEbnTDJUr_IcPtUXFy2b1sGRPsLFMghhS">Compiler Design [Ravindrababu Ravula]</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLW1OMpQZxu7xMh7nuDQYQ2mDcqY2hzBWk" target="_blank">Compiler Design [Mifta Sintaha]</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLEbnTDJUr_IcPtUXFy2b1sGRPsLFMghhS" target="_blank">Compiler Design [Ravindrababu Ravula]</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -718,8 +751,8 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 421 | Computer Networks</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -731,8 +764,8 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.cybrary.it/course/cisco-ccna/">Cisco CCNA</a></li>
-            <li><a href="https://www.youtube.com/playlist?list=PLYx-Huwyr19h-Z2axf8a7HQN_zhLxJ8OX">CS103 - Computer Networking 01 (কম্পিউটার নেটওয়ার্কিং ০১)</a></li>
+            <li><a href="https://www.cybrary.it/course/cisco-ccna/" target="_blank">Cisco CCNA</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLYx-Huwyr19h-Z2axf8a7HQN_zhLxJ8OX" target="_blank">CS103 - Computer Networking 01 (কম্পিউটার নেটওয়ার্কিং ০১)</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -748,20 +781,20 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 422 | Artificial Intelligence</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
           <ol>
-            <li><a href = "https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a></li>
+            <li><a href = "https://automatetheboringstuff.com/" target="_blank">Automate the Boring Stuff with Python</a></li>
             <li>Artificial Intelligence: A Modern Approach, <i>by Stuart Russell,  Peter Norvig</i></li>
           </ol>
         </div>
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href = "https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi">MIT 6.034 Artificial Intelligence, Fall 2010</a></li>
+            <li><a href = "https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi" target="_blank">MIT 6.034 Artificial Intelligence, Fall 2010</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -777,28 +810,22 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 423 | Graphics Design</h4>
+         
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
           <ol>
             <li>Computer graphics with OpenGL, <i>by Donald Hearn, M. Pauline Baker.</i></li>
             <li>Computer graphics : principles and practice, <i>by James D. Foley </i></li>
-            <li><a href="https://www.tutorialspoint.com/computer_graphics/">Computer Graphics Tutorial [Tutorialspoint]</a></li>
-            <li><a href="https://www.geeksforgeeks.org/computer-graphics-2/">Computer Graphics Tutorial [geeksforgeeks]</a></li>
+            <li><a href="https://www.tutorialspoint.com/computer_graphics/" target="_blank">Computer Graphics Tutorial [Tutorialspoint]</a></li>
+            <li><a href="https://www.geeksforgeeks.org/computer-graphics-2/" target="_blank">Computer Graphics Tutorial [geeksforgeeks]</a></li>
           </ol>
         </div>
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.youtube.com/playlist?list=PLW1OMpQZxu7yZaE5DaNNXP1TFHnvn0tE8">Computer Graphics [Mifta Sintaha]</a></li>
-          </ol>
-        </div>
-        <div class="modal-body">
-          <h5><b>Others : </b></h5>
-          <ol>
-            <li><a href="https://www.edx.org/course/computer-graphics">Computer Graphics [US San Diego]</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLW1OMpQZxu7yZaE5DaNNXP1TFHnvn0tE8" target="_blank">Computer Graphics [Mifta Sintaha]</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -814,8 +841,8 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 427 | Machine Learning</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
@@ -828,18 +855,18 @@
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-              <li><a href = "https://www.youtube.com/playlist?list=PLFze15KrfxbH8SE4FgOHpMSY1h5HiRLMm">Understanding Machine Learning | Shai Ben-David</a></li>
-              <li><a href = "https://www.youtube.com/playlist?list=PLl-BBnDxtUt1hLXmIwu27P22bTi6VwMkN">Machile Learning | Tom Mitchell</a></li>
+              <li><a href = "https://www.youtube.com/playlist?list=PLFze15KrfxbH8SE4FgOHpMSY1h5HiRLMm" target="_blank">Understanding Machine Learning | Shai Ben-David</a></li>
+              <li><a href = "https://www.youtube.com/playlist?list=PLl-BBnDxtUt1hLXmIwu27P22bTi6VwMkN" target="_blank">Machile Learning | Tom Mitchell</a></li>
           </ol>
         </div>
         <div class="modal-body">
           <h5><b>Others : </b></h5>
           <ol>
-              <li><a href = "https://developers.google.com/machine-learning/crash-course/ml-intro">Introduction to Machine Learning [Google]</a></li>
-              <li><a href = "https://research.fb.com/publications/">Facebook Research</a></li>
-              <li><a href = "https://ai.google/research/pubs">Google Research</a></li>
-              <li><a href = "https://www.reddit.com/r/MachineLearning/">Reddit - Machine Learning</a></li>
-              <li><a href = "https://www.coursera.org/learn/machine-learning">Machine Learning [Coursera]</a></li>
+              <li><a href = "https://developers.google.com/machine-learning/crash-course/ml-intro" target="_blank">Introduction to Machine Learning [Google]</a></li>
+              <li><a href = "https://research.fb.com/publications/" target="_blank">Facebook Research</a></li>
+              <li><a href = "https://ai.google/research/pubs" target="_blank">Google Research</a></li>
+              <li><a href = "https://www.reddit.com/r/MachineLearning/" target="_blank">Reddit - Machine Learning</a></li>
+              <li><a href = "https://www.coursera.org/learn/machine-learning" target="_blank">Machine Learning [Coursera]</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -855,21 +882,20 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">CSE 491 | Independent Study[Android]</h4>
+          
         </div>
         <div class="modal-body">
           <h5><b>Reading Materials : </b></h5>
           <ol>
             <li>Head First Android Development,<i>by David Griffiths, Dawn Griffiths</i></li>
-            <li><a href = "https://hellohasan.com/category/android-tutorial/">হাসানের রাফখাতা [এন্ড্রয়েড এপ ডেভলপমেন্ট]</a></li>
           </ol>
         </div>
         <div class="modal-body">
           <h5><b>Video Tutorials : </b></h5>
           <ol>
-            <li><a href="https://www.udacity.com/course/new-android-fundamentals--ud851">Developing Android Apps</a></li>
-            <li><a href="http://web.stanford.edu/class/cs193a/lectures.shtml">CS 193A: Android App Development, Winter 2017</a></li>
+            <li><a href="https://www.udacity.com/course/new-android-fundamentals--ud851" target="_blank">Developing Android Apps</a></li>
+            <li><a href="http://web.stanford.edu/class/cs193a/lectures.shtml" target="_blank">CS 193A: Android App Development, Winter 2017</a></li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -878,5 +904,8 @@
       </div>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
